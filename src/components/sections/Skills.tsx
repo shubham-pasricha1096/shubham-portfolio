@@ -19,19 +19,26 @@ export default function Skills() {
                     </h2>
 
                     <div className="mb-12">
-                        <h3 className="text-xl font-semibold mb-6">Technical Skills</h3>
-                        <div className="flex flex-wrap gap-3">
-                            {resumeData.skills.map((skill, index) => (
-                                <motion.span
-                                    key={index}
-                                    initial={{ opacity: 0, scale: 0.8 }}
-                                    whileInView={{ opacity: 1, scale: 1 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: index * 0.05 }}
-                                    className="px-4 py-2 bg-gray-100 dark:bg-zinc-800 rounded-lg font-medium hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors cursor-default"
-                                >
-                                    {skill}
-                                </motion.span>
+                        <h3 className="text-xl font-semibold mb-8">Technical Skills</h3>
+                        <div className="grid gap-8 sm:grid-cols-2">
+                            {Object.entries(resumeData.skills).map(([category, skills], catIndex) => (
+                                <div key={category} className="bg-gray-50/50 dark:bg-zinc-900/40 p-6 rounded-xl border border-gray-100 dark:border-zinc-800/80">
+                                    <h4 className="text-base font-bold text-gray-800 dark:text-zinc-200 mb-4">{category}</h4>
+                                    <div className="flex flex-wrap gap-2.5">
+                                        {skills.map((skill, index) => (
+                                            <motion.span
+                                                key={skill}
+                                                initial={{ opacity: 0, scale: 0.8 }}
+                                                whileInView={{ opacity: 1, scale: 1 }}
+                                                viewport={{ once: true }}
+                                                transition={{ delay: (catIndex * 0.05) + (index * 0.02) }}
+                                                className="px-3.5 py-1.5 bg-white dark:bg-zinc-800 text-sm font-medium border border-gray-200/60 dark:border-zinc-700/50 rounded-lg hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors cursor-default"
+                                            >
+                                                {skill}
+                                            </motion.span>
+                                        ))}
+                                    </div>
+                                </div>
                             ))}
                         </div>
                     </div>

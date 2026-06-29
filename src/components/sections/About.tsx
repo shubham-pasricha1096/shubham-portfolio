@@ -16,7 +16,7 @@ export default function About() {
                 >
                     <h2 className="text-3xl font-bold mb-8">About Me</h2>
                     <div className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed space-y-4">
-                        <p>{resumeData.about}</p>
+                        <p>{resumeData.aboutDetailed}</p>
                         {/* Education could go here or in About or Experience. I'll put Education here briefly as text or separate block */}
                         <div className="mt-8">
                             <h3 className="text-xl font-semibold mb-4">Education</h3>

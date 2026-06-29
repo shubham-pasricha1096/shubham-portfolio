@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { resumeData } from "@/data/resume";
-import { Mail, Phone, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 
 export default function Contact() {
     return (
@@ -19,19 +19,12 @@ export default function Contact() {
                             I&apos;m currently open to new opportunities. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
                         </p>
 
-                        <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-16">
+                        <div className="flex justify-center items-center mb-16">
                             <a
                                 href={`mailto:${resumeData.email}`}
                                 className="flex items-center gap-3 text-xl hover:text-gray-300 transition-colors"
                             >
                                 <Mail /> {resumeData.email}
-                            </a>
-                            <span className="hidden md:inline text-gray-600">|</span>
-                            <a
-                                href={`tel:${resumeData.phone}`}
-                                className="flex items-center gap-3 text-xl hover:text-gray-300 transition-colors"
-                            >
-                                <Phone /> {resumeData.phone}
                             </a>
                         </div>
 
