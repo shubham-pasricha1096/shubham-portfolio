@@ -10,56 +10,44 @@ export const resumeData = {
     about:
         "Final year BCA student at CHRIST (Deemed to be University), Delhi NCR, specializing in Generative AI, RAG pipelines, and LLM orchestration. Former intern at Bharti Airtel across GenAI Automation, Product Analysis, and TechOps. Actively seeking full-time roles in AI/Product/TechOps.",
     aboutDetailed:
-        "I'm Shubham, a final year BCA student who's spent the last two years building production-grade AI systems at Bharti Airtel — from RAG chatbots to observability agents. My work sits at the intersection of GenAI engineering and product thinking. I care about systems that actually ship and products that solve real friction. Outside work, I'm into fitness, skincare, and running a corporate meme account for Indian Gen Z.",
+        "I'm Shubham, a final year BCA student who's spent the last two years building production-grade AI systems at Bharti Airtel — from RAG chatbots to observability agents. My work sits at the intersection of GenAI engineering and product thinking. I care about systems that actually ship and products that solve real friction. Outside work, I'm into fitness and cooking.",
     education: [
         {
             school: "CHRIST (Deemed to be University), Delhi",
             degree: "Bachelor of Computer Applications",
             year: "2023 - 2026",
-            grade: "CGPA - 8.69/10",
+            grade: "CGPA - 8.45/10",
         },
     ],
     experience: [
         {
             company: "Bharti Airtel",
-            role: "GenAI & AI Automation Intern",
+            role: "Product and AI Intern",
             period: "January 2026 - July 2026",
             description: [
                 "Built a production RAG-based sales enablement chatbot using GPT-4o mini, LangChain, and PgVector, deployed on Azure Bot Service (Teams) and GCP.",
                 "Implemented asynchronous document ingestion pipeline using Celery, NATS, and Redis with MongoDB for metadata storage.",
-                "Backend built on Django; integrated with Airtel's internal knowledge base for real-time query resolution.",
-                "Designed and developed an AI-powered chatbot system for telecom workflows, enabling real-time user interaction, intelligent session management, and automated query handling to enhance customer support efficiency.",
-                "Built a production-grade RAG-based architecture integrating MongoDB for persistent message storage and Redis for active session memory, reducing conversational latency and improving contextual response relevance.",
+                "Backend built on Django; integrated with Airtel's internal knowledge base for real-time query resolution."
             ],
         },
         {
             company: "Bharti Airtel",
-            role: "Product Analyst Intern",
-            period: "January 2025 - July 2025",
+            role: "Product Analyst",
+            period: "May 2025 - July 2025",
             description: [
-                "Engineered data pipelines to transform raw CSV files into actionable business insights, streamlining data processing workflows.",
-                "Performed comprehensive data cleaning and structuring across subscriber datasets, uncovering key revenue drivers and customer behavior patterns.",
-                "Designed and deployed interactive dashboards to support data-driven decision-making for product strategy and customer retention initiatives.",
+                "Designed and developed an AI-powered chatbot system for telecom workflows, enabling real-time user interaction, intelligent session management, and automated query handling.",
+                "Built a production-grade RAG-based architecture integrating MongoDB for persistent message storage and Redis for active session memory, reducing conversational latency.",
+                "Implemented natural language processing pipelines to handle complex telecom queries."
             ],
         },
         {
-            company: "Bharat Intern",
-            role: "Machine Learning Intern",
-            period: "January 2024 - July 2024",
+            company: "Bharat Intern (now Orbitor)",
+            role: "ML Intern",
+            period: "May 2024 - July 2024",
             description: [
                 "Developed machine learning models for house price prediction utilizing real-world datasets and advanced statistical techniques.",
                 "Collaborated with cross-functional teams to design scalable ML solutions for business challenges, improving decision-making accuracy by 20%.",
-                "Contributed to system maintenance, debugging, and enhancement of AI model components to ensure optimal performance.",
-            ],
-        },
-        {
-            company: "Main Flow Services and Technologies",
-            role: "Data Analysis and Visualization Intern",
-            period: "July 2023 - January 2024",
-            description: [
-                "Automated data ingestion and preprocessing workflows across healthcare, entertainment, and social media domains, reducing manual effort by 40%.",
-                "Created comprehensive dashboards and visualizations using Python (Pandas, Matplotlib, Seaborn) to derive actionable insights from complex datasets.",
-                "Established structured reporting frameworks and documented data pipeline architectures to improve team collaboration and knowledge transfer.",
+                "Contributed to system maintenance, debugging, and enhancement of AI model components to ensure optimal performance."
             ],
         },
     ],
@@ -128,12 +116,10 @@ export const resumeData = {
         },
     ],
     skills: {
-        "Languages": ["Python", "JavaScript", "SQL"],
-        "AI/ML": ["LangChain", "GPT-4o", "RAG Pipelines", "LLMOps", "Prompt Engineering", "Scikit-learn"],
-        "Backend": ["FastAPI", "Django", "Celery", "NATS", "Redis", "MongoDB", "PgVector"],
-        "Cloud & DevOps": ["Azure", "GCP", "Docker", "GitHub Actions"],
-        "Observability": ["Grafana", "Prometheus"],
-        "Tools": ["Power BI", "Excel", "Postman"],
+        "AI": ["OpenAI", "Gemini", "RAG", "Prompt Engineering", "Vector Databases", "LangChain"],
+        "Backend": ["Python", "FastAPI", "NodeJS", "Redis", "Docker", "ElasticSearch"],
+        "Analytics": ["SQL", "Power BI", "Excel", "Tableau"],
+        "Frontend": ["React", "NextJS", "Tailwind", "TypeScript"],
     },
     certificates: [
         "Microsoft and LinkedIn – Career Essentials in Generative AI",

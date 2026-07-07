@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 import Chatbot from "@/components/Chatbot";
+import CursorSpotlight from "@/components/CursorSpotlight";
 
 export const metadata: Metadata = {
   title: `${resumeData.name} - ${resumeData.title}`,
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-black text-black dark:text-white`}
       >
+        <CursorSpotlight />
         <Header />
         <main>{children}</main>
         <Chatbot />
