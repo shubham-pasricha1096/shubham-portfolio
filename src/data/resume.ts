@@ -4,7 +4,7 @@ export const resumeData = {
     email: "shubhampasricha1096@gmail.com",
     location: "Delhi, India",
     links: {
-        linkedin: "https://www.linkedin.com/in/shubham-pasricha",
+        linkedin: "https://www.linkedin.com/in/shubhampasricha",
         github: "https://github.com/shubham-pasricha1096",
     },
     about:
