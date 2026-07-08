@@ -15,7 +15,7 @@ export default function Contact() {
         },
         {
             name: "LinkedIn",
-            value: "shubham-pasricha",
+            value: "shubhampasricha",
             href: resumeData.links.linkedin,
             icon: <Linkedin className="w-5 h-5 text-purple-400" />,
             hoverBorder: "hover:border-purple-500/30"
